@@ -1,0 +1,188 @@
+mode: auto
+
+favicon: /favicon.ico
+
+social:
+  - name: QQ
+    # https://isux.tencent.com/wp-content/uploads/2016/05/20160512101222609.pdf
+    link: https://wpa.qq.com/msgrd?v=3&uin=910426929&site=qq&menu=yes
+    icon: icon-qq-line
+    color: "#12B7F5"
+
+banner:
+  enable: true
+  title: 一席之地
+  src: /js/ui/banner.js
+  border: true
+  cloud:
+    enable: true
+    color: "white"
+  go_down:
+    enable: true
+    icon: icon-arrow-down-s-line
+ 
+notice:
+  enable: true
+  content: Thanks for playing my game.
+fireworks:
+  enable: true
+  colors:
+    - "236, 44, 100"
+    - "209, 60, 116"
+    - "18, 161, 130"
+
+avatar:
+  url: /images/avatar.jpg
+  status:
+    enable: true
+    emoji: 🌑
+    message: Looking for dawn.
+
+reward:
+  enable: true
+  icon: icon-hand-coin-line
+  comment: I'm so cute. Please give me money.
+  # url: https://github.com/YunYouJun/yunyoujun.github.io/issues/96
+  methods:
+    - name: 微信支付
+      path: https://cdn.jsdelivr.net/gh/fjl2496627108/say@main/wx.png
+      color: "#2DC100"
+      icon: icon-wechat-pay-line
+
+wordcloud:
+  enable: true
+
+comment:
+  enable: true
+  tips:
+    - 若您想及时得到回复提醒，建议跳转 GitHub Issues 评论。
+    - 若没有本文 Issue，您可以使用 Comment 模版新建。
+  candidates:
+    - valine
+
+valine:
+  enable: ture
+  appId: 4eBmxBTSqsqtUE586dNkOoDW-MdYXbMMI
+  appKey: 2y30HREIV23UuS0tpNQVBVG0
+  placeholder: Just go go # comment box placeholder
+  avatar: # gravatar style
+  meta:
+    - nick
+    - mail
+    - link
+  pageSize: 10 # pagination size
+  # lang: zh-CN
+  # visitor: false
+  # highlight: true
+  # recordIP: false
+  # serverURLs:
+  # Emoji See: https://valine.js.org/emoji.html
+  # emojiCDN: //i0.hdslb.com/bfs/emote/
+  # emojiMaps:
+  #   tv_doge: 6ea59c827c414b4a2955fe79e0f6fd3dcd515e24.png
+  #   more...
+  # enableQQ: false
+  # requiredFields:
+  #   - nick
+  #   - mail
+
+github_issues:
+  enable: false
+
+github_discussions:
+  enable: false
+
+disqusjs:
+  enable: false
+  shortname: yunyoujun
+  apikey: ouoGQCaamOKdJgyZU5DKcpFnRIg3SNzvk0nwygPtlcTRJuE68c8igvrZGW4wAJoN
+
+footer:
+  since: 2016
+  beian:
+    enable: true
+    icp: 陕ICP备2020018849号-1
+  # ...
+
+footer:
+  live_time:
+    enable: ture
+    prefix: 本博客已萌萌哒地运行
+    suffix: (●'◡'●)
+    start_time: "2021-03-15T00:00:00"
+
+engine_search:
+  enable: false
+
+# If you want to use it, you need config algolia appID in _config.yml!!!
+# https://github.com/oncletom/hexo-algolia
+algolia_search:
+  enable: true
+  # ...
+
+google_analytics:
+  enable: true
+  id: UA-121354150-1
+
+google_adsense:
+  enable: true
+  client: ca-pub-2245427233262012
+
+post_edit:
+  enable: true
+  url: https://github.com/YunYouJun/yunyoujun.github.io/tree/hexo/source/
+
+albums:
+  enable: true
+
+girls:
+  enable: true
+
+tags:
+  动画: crimson
+  漫画: orange
+  Parcel: "#21374b"
+  学习: saddlebrown
+  MAD: crimson
+  教程: royalblue
+  笔记: dimgray
+  分享: "#0078e7"
+  随笔: mediumpurple
+  Blender: "#d04d2d"
+  Linux: "#2577b1"
+  中传: "#ccb44b"
+  部落: "#DD306A"
+  科幻: midnightblue
+
+categories:
+  云游的小视频: "#FB7299"
+
+pages:
+  - name: 我的小伙伴们
+    url: /links/
+    icon: icon-genderless-line
+    color: dodgerblue
+  - name: 喜欢的女孩子
+    url: /girls/
+    icon: icon-women-line
+    color: hotpink
+
+menu:
+  custom:
+    title: 留言板
+    path: /about/#comment
+    icon: icon-clipboard-line
+
+cursor:
+  enable: true
+
+baidu_push: true
+
+google_tagmanager:
+  enable: true
+  id: GTM-M9KWR9L
+
+say:
+  api: https://el-bot-api.vercel.app/api/words/young
+  hitokoto:
+    enable: false
